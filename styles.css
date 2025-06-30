@@ -620,6 +620,30 @@ section {
     color: var(--text-dark);
 }
 
+/* 中間CTAセクション */
+.middle-cta-section {
+    background: linear-gradient(135deg, #f5f3f0 0%, #ebe8e4 100%);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.middle-cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.middle-cta-content h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+}
+
+.middle-cta-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: var(--text-gray);
+}
+
 /* 価格セクション */
 .pricing-section {
     background: linear-gradient(180deg, var(--primary-color) 0%, #6B5A45 100%);
