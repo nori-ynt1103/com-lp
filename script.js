@@ -180,8 +180,8 @@ window.addEventListener('scroll', () => {
 document.querySelectorAll('.final-cta-button').forEach(button => {
     button.addEventListener('click', (e) => {
         e.preventDefault();
-        // ここに決済ページへの遷移処理を実装
-        alert('決済ページへの遷移処理を実装してください');
+        // 申し込みページへ遷移
+        window.location.href = 'https://nori-cm.com/p/r/lWjuFMhX';
     });
 });
 
